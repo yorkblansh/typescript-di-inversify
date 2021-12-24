@@ -1,6 +1,6 @@
-import { IOutput } from './interfaces';
+// import { IOutput } from './interfaces';
+// import { TYPES } from './types';
 import { injectable, inject } from 'inversify';
-import { TYPES } from './types';
 
 @injectable()
 export class Dog {

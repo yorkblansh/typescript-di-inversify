@@ -15,7 +15,7 @@ var CliOutput = /** @class */ (function () {
         //	process.stdout.write(message);
     };
     CliOutput = __decorate([
-        inversify_1.injectable()
+        (0, inversify_1.injectable)()
     ], CliOutput);
     return CliOutput;
 }());

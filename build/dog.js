@@ -17,7 +17,7 @@ var Dog = /** @class */ (function () {
         // this.output.print(message);
     };
     Dog = __decorate([
-        inversify_1.injectable()
+        (0, inversify_1.injectable)()
     ], Dog);
     return Dog;
 }());
