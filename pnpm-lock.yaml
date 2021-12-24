@@ -1,0 +1,69 @@
+lockfileVersion: 5.3
+
+specifiers:
+    '@types/node': ^13.9.1
+    '@types/reflect-metadata': ^0.1.0
+    inversify: ^5.0.1
+    prettier: ^2.5.1
+    reflect-metadata: ^0.1.13
+    typescript: ^3.8.3
+
+dependencies:
+    '@types/node': 13.13.52
+    '@types/reflect-metadata': 0.1.0
+    inversify: 5.1.1
+    reflect-metadata: 0.1.13
+    typescript: 3.9.10
+
+devDependencies:
+    prettier: 2.5.1
+
+packages:
+    /@types/node/13.13.52:
+        resolution:
+            {
+                integrity: sha512-s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==,
+            }
+        dev: false
+
+    /@types/reflect-metadata/0.1.0:
+        resolution:
+            {
+                integrity: sha512-bXltFLY3qhzCnVYP5iUpeSICagQ8rc9K2liS+8M0lBcz54BHs3O6W5UvqespVSuebo1BXLi+/y9ioELAW9SC2A==,
+            }
+        deprecated: This is a stub types definition for reflect-metadata (https://github.com/rbuckton/ReflectDecorators). reflect-metadata provides its own type definitions, so you don't need @types/reflect-metadata installed!
+        dependencies:
+            reflect-metadata: 0.1.13
+        dev: false
+
+    /inversify/5.1.1:
+        resolution:
+            {
+                integrity: sha512-j8grHGDzv1v+8T1sAQ+3boTCntFPfvxLCkNcxB1J8qA0lUN+fAlSyYd+RXKvaPRL4AGyPxViutBEJHNXOyUdFQ==,
+            }
+        dev: false
+
+    /prettier/2.5.1:
+        resolution:
+            {
+                integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==,
+            }
+        engines: { node: '>=10.13.0' }
+        hasBin: true
+        dev: true
+
+    /reflect-metadata/0.1.13:
+        resolution:
+            {
+                integrity: sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==,
+            }
+        dev: false
+
+    /typescript/3.9.10:
+        resolution:
+            {
+                integrity: sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==,
+            }
+        engines: { node: '>=4.2.0' }
+        hasBin: true
+        dev: false
